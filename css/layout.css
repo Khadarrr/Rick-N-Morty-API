@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  width: 100%;
+  place-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: minmax(62px, auto) 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header,
+.header {
+  display: flex;
+  flex-direction: column;
+  grid-area: header;
+  width: 100%;
+  padding: 1em;
+}
+
+main,
+.main {
+  display: flex;
+  flex-direction: column;
+  grid-area: main;
+  width: 100%;
+  padding: 1.5em;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}

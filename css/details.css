@@ -1,0 +1,25 @@
+.details-title {
+  margin-bottom: 0.7em;
+}
+
+.details-image {
+  margin-bottom: 1em;
+  height: 290px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.breadcrumb-nav {
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.details-info {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+  display: flex;
+  justify-content: center;
+}

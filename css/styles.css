@@ -1,0 +1,50 @@
+@import "/css/card.css";
+@import "/css/details.css";
+@import "/css/layout.css";
+@import "/css/resets.css";
+@import "/css/ui.css";
+@import "/css/utilities.css";
+@import "/css/variables.css";
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+.input-subject {
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+label {
+  padding: 5px;
+}
+
+.contact-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.rnm-pic {
+  display: flex;
+  justify-content: center;
+}
