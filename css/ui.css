@@ -72,7 +72,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #26ff00;
+    color: rgb(204, 220, 112);
   }
   button {
     background-color: #f9f9f9;

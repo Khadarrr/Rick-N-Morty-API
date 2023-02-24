@@ -1,20 +1,53 @@
-@import "/css/card.css";
-@import "/css/details.css";
-@import "/css/layout.css";
 @import "/css/resets.css";
 @import "/css/ui.css";
-@import "/css/utilities.css";
 @import "/css/variables.css";
+
+body {
+  margin: 0;
+  width: 100%;
+  place-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: minmax(62px, auto) 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header,
+.header {
+  display: flex;
+  flex-direction: column;
+  grid-area: header;
+  width: 100%;
+  padding: 1em;
+}
+
+main,
+.main {
+  display: flex;
+  flex-direction: column;
+  grid-area: main;
+  width: 100%;
+  padding: 1.5em;
+}
 
 button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  background-color: black;
 }
 
 .c-form {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .form-group {
@@ -45,6 +78,67 @@ h2 {
 }
 
 .rnm-pic {
+  display: flex;
+  justify-content: center;
+}
+
+fieldset {
+  background-color: black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  max-width: 300px;
+  margin: 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+}
+
+.card a.details {
+  margin-top: 0.5em;
+  background-color: black;
+  color: rgb(0, 0, 0);
+}
+
+.card div.details {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  background: rgb(81, 173, 198);
+}
+
+.name {
+  font-size: 16px;
+  margin-bottom: 0.75rem;
+  color: black;
+  font-weight: bold;
+}
+
+.image {
+  height: 250px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.details-title {
+  margin-bottom: 0.7em;
+}
+
+.details-image {
+  margin-bottom: 1em;
+  height: 290px;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.details-info {
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: bold;
+  display: block;
   display: flex;
   justify-content: center;
 }
