@@ -4,16 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/styles.css" type="">
+    <meta name="Khadar Hashi" content="@Khadarrr" />
+    <title>Rick n Morty Homepage</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script defer src="/script.js"></script>
   </head>
-  <body>
+  <body class="animate__animated animate__fadeIn">
+    <header>
+      <a href="/index.html"
+        ><button><h3>Homepage</h3></button></a
+      >
+     <div><img class="rnm-pic" src="/pngaaa.com-2998297.png" alt="rick n morty logo"></div> 
+    </header>
     <main>
-        <div class="game-detail">
-            <div class="loader"></div>
-    </main>
-    <script src="/script.js"></script>
-    <script src="/details.js"></script>
+      <section>
+        <form id="js-search-form">
+          <fieldset class="fieldset">
+            <label for="search">Search</label>
+            <input type="search" id="js-search" name="search" />
+          </fieldset></form>
 
+
+            <fieldset class="fieldset">
+              <legend>Gender</legend>
+            
+
+              <form>
+                <input 
+                type="checkbox" 
+                id="js-male" 
+                name="male" 
+                value="male" 
+                />
+                <label>Male</label><br />
+                <input
+                  type="checkbox"
+                  id="js-female"
+                  name="female"
+                  value="female"
+                />
+                <label>Female</label><br />
+                <input
+                  type="checkbox"
+                  id="js-unknown"
+                  name="unknown"
+                  value="unknown"
+                />
+                <label>Unknown</label><br /><br />
+                
+              </form>
+            
+            </fieldset>
+
+        </form>
+      </section>
+      <a href="/index.html"><button>BACK</button></a>
+      <div class="results" id="js-results">
+        <div class="loader" id="result-container"></div>
+      </div>
+      <div>
+        <a class="contact-p" href="/contact.html"
+          ><button>CONTACT PAGE</button></a
+        >
+      </div>
+    </main>
+    <footer class="l-footer">
+      <a href="https://github.com/Khadarrr"
+        ><small>Created with ❤️ by Khadarrr</small></a
+      >
+    </footer>
   </body>
 </html>
