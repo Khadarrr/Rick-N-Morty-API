@@ -1,5 +1,9 @@
 JavaScript API
 
+## Resources
+
+- [Production deploy](https://velvety-longma-95c4b9.netlify.app/)
+
 Course assignment for javascript API call.
 
 My choice of Api fell on the Rick and Morty one that I previously had worked on true the module courses
@@ -16,7 +20,5 @@ Aplication stack:
 Prettier - code formatter
 Eslint - Find and fix problems in JavaScript code.
 
-
 Authors
 Khadar Hashi (@Khadarrr).
-
